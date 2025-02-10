@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Alexandria", serif;
+
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/assets/imagem-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+/* Tela Inicial */
+
+.tela-inicial{
+    position: relative;
+    top: 30%;
+}
+
+.tela-inicial h1 {
+    color: #ffff;
+    font-size: 40px;
+    position: relative;
+    left: 5%;
+
+}
+
+.tela-inicial a button {
+    margin-top: 1%;
+    margin-left: 14%;
+    padding: 15px 27px;
+    border-radius: 15px;
+    border: none;
+    background-color: #E46782;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+
+}
+.tela-inicial button:hover {
+    background-color: #ce5b74; 
+}
+
+/* Tela Inicial Final*/
+
+/* Tela Níveis*/
+
+.tela-niveis{
+    position: relative;
+    top: 23%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tela-niveis h1 {
+    color: #ffff;
+    font-size: 40px;
+    position: relative;
+
+}
+
+.tela-niveis a button {
+    margin-left: 12%;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+
+
+}
+
+.tela-niveis a {
+    display: flex;
+    text-decoration: none;
+}
+
+/* margin-left: 12%;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    margin-bottom: 20px;
+    text-decoration: none !important; */
+
+#facil button{
+    background-color: #95C16A;
+    padding: 15px 27px;
+    
+
+
+}
+
+#medio button{
+    background-color: #E5C96B;
+    padding: 15px 20px;
+
+
+}
+
+#dificil button{
+    background-color: #E46782;
+    padding: 15px 20px;
+
+
+}
+#facil button:hover{
+    background-color: #80a55c;
+    padding: 15px 27px;
+    
+
+
+}
+
+#medio button:hover{
+    background-color: #cfb560;
+    padding: 15px 20px;
+
+
+}
+
+#dificil button:hover{
+    background-color: #bd556b;
+    padding: 15px 20px;
+
+
+}
+
+
+
+
+
