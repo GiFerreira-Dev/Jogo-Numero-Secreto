@@ -41,7 +41,7 @@
     padding: 15px 27px;
     border-radius: 15px;
     border: none;
-    background-color: #E46782;
+    background-color: #f16f8b;
     color: #ffff;
     font-weight: bold;
     font-size: 17px;
@@ -51,7 +51,7 @@
 
 }
 .tela-inicial button:hover {
-    background-color: #ce5b74; 
+    background-color: #b65368; 
 }
 
 /* Tela Inicial Final*/
@@ -149,6 +149,265 @@
 
 
 }
+
+/* Tela Níveis Final*/
+
+/* Tela Facil*/
+
+.tela-facil h1 {
+    color: #ffff;
+    font-size: 55px;
+
+}
+.tela-facil{
+    position: relative;
+    top: 25%;
+    left: 4%;
+    
+
+}
+.h2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 3px; 
+    position: relative;
+    bottom: 63px; 
+    left: 22%;
+    color: white;
+}
+.dicas{
+    color: white;
+    position: absolute; 
+    left: 7%;
+    top: 35%; 
+
+}
+.input-facil input{
+    margin-left: 1%;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    display: flex;
+    text-indent: 20px;
+    color: #95C16A;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.input-facil button{
+    margin-left: 12%;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 10px 20px;
+    background-color: #95C16A;
+
+
+}
+
+.input-facil button:hover{
+    background-color: #80a55c;
+
+}
+
+/* Tela Facil Final*/
+
+/* Tela Médio*/
+
+.tela-medio h1 {
+    color: #ffff;
+    font-size: 55px;
+
+}
+.tela-medio{
+    position: relative;
+    top: 25%;
+    left: 4%;
+    
+
+}
+
+.input-medio input{
+    margin-left: 1%;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    display: flex;
+    text-indent: 20px;
+    color: #E5C96B;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.input-medio button{
+    margin-left: 12%;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 10px 20px;
+    background-color: #E5C96B;
+
+
+}
+
+.input-medio button:hover{
+    background-color: #cfb560;
+
+}
+
+/* Tela Médio Final*/
+
+/* Tela Dificil*/
+
+.tela-dificil h1 {
+    color: #ffff;
+    font-size: 55px;
+
+}
+.tela-dificil{
+    position: relative;
+    top: 25%;
+    left: 4%;
+    
+
+}
+
+.input-dificil input{
+    margin-left: 1%;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    display: flex;
+    text-indent: 20px;
+    color: #E46782;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.input-dificil button{
+    margin-left: 12%;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 10px 20px;
+    background-color: #E46782;
+
+
+}
+
+.input-dificil button:hover{
+    background-color: #bd556b;
+
+}
+
+/* Tela Dificil Final*/
+
+/* Tela Parabens Final*/
+
+.tela-parabens{
+    position: absolute;
+    top: 25%; 
+    left: 7%;
+    text-align: center;
+
+}
+.tela-parabens h1 {
+    color: #ffff;
+    font-size: 55px;
+
+}
+.tela-parabens h2{
+    color: #ffff;
+    font-size: 27px;
+    margin-top: 1%;
+
+}
+.tela-parabens a button{
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 10px 20px;
+    background-color: #f16f8b;
+    margin-top: 2%;
+
+}
+.tela-parabens a button:hover{
+    background-color: #b65368;
+}
+
+/* Tela Fim de Jogo*/
+
+.tela-fim{
+    position: absolute;
+    top: 25%; 
+    left: 20%;
+    text-align: center;
+
+}
+.tela-fim h1 {
+    color: #ffff;
+    font-size: 55px;
+
+}
+.tela-fim h2{
+    color: #ffff;
+    font-size: 27px;
+    margin-top: 1%;
+
+}
+.tela-fim a button{
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 10px 20px;
+    background-color: #f16f8b;
+    margin-top: 2%;
+
+}
+.tela-fim a button:hover{
+    background-color: #b65368;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
